@@ -1,12 +1,16 @@
 import random
 import json
+
+# this is just for importing the file, don't let it intimidate you
 from pathlib import Path
 
 # this line grabs the full filename of the "pokemon.json" file 
 pokemon_file_path = str(Path(__file__).parent.parent) + "/pokemon.json"
-# these two lines read the file and puts all the contents into a dictionary
+
+# these two lines read the file and put all the contents into a dictionary
 with open(pokemon_file_path) as file:
     poketypes = json.load(file)
+
 streak = 0
 done = False
 while not done:

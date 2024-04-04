@@ -40,6 +40,5 @@ public class Currencies {
             System.out.println("---");
         }
         input.close();
-
     }
 }

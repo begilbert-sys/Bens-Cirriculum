@@ -33,6 +33,12 @@ public class Card {
         this.value = value;
         this.suit = suit;
     }
+    public String getValue() {
+        return value;
+    }
+    public String getSuit() {
+        return suit;
+    }
 
     public String toString() {
         return value + " of " + suit;

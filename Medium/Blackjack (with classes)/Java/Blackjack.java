@@ -91,7 +91,7 @@ public class Blackjack {
         boolean hasAce = false;
         int total = 0;
         for (Card card : hand) {
-            if (card.value().equals("Ace")) {
+            if (card.getValue().equals("Ace")) {
                 hasAce = true;
             }
             total += card.getIntValue();

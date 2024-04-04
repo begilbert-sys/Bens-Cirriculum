@@ -42,9 +42,10 @@ Make a list of the standard math operators (Plus, minus, times, and division. Mo
 **Assignment:**
 <a href="https://en.wikipedia.org/wiki/JSON">JSON</a> is simple way to store data in the form of lists and dictionaries. I've provided a .json file containing every single pokemon along with a list of their type(s). Your job is to use this file to create a quiz which chooses a pokemon at random and asks the user to give the pokemon's types. Add a streak that tracks how many in a row they get correct. 
 
-I'd recommend stealing the code I wrote to read the JSON file, especially if you're using Java.
-
 This program can be done with any set of data. So if you're not a fan of Pokemon, I've also provided json files containing US state capitals and country capitals. 
+
+**JAVA INSTRUCTIONS**
+Unfortunately, while Python is designed to work well with JSON, statically-typed languages like Java are not. We'll have to jump though a couple of hoops to get this one working. 
 
 ## Blackjack with Classes
 
